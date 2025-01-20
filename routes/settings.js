@@ -21,6 +21,7 @@ router.get('/', authMiddleware, async (req, res) => {
 // Создать / Обновить настройки пользователя
 router.put('/', authMiddleware, async (req, res) => {
     const { jsonSettings } = req.body;
+    console.log(req.user);
 
     try {
         let settings = await Settings.findOne({ userId: req.user.id });
@@ -29,11 +30,11 @@ router.put('/', authMiddleware, async (req, res) => {
             settings.jsonSettings = jsonSettings; // обновляем
             await settings.save();
         } else {
-            settings = new Settings({ userId, jsonSettings });
+            settings = new Settings({ userId: req.user.id, jsonSettings });
             await settings.save(); // создаем
         }
 
-        res.json(settings.jsonSettings);
+        res.json({ jsonSettings: settings.jsonSettings });
     } catch (err) {
         console.error(err.message);
         res.status(500).send('Server Error');

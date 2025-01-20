@@ -9,6 +9,8 @@ const settingsSchema = new mongoose.Schema({
     jsonSettings: {
         type: Object,
         required: true,
+        currency: { type: Object, required: true },
+        language: { type: Object, required: true },
     },
 });
 
