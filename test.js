@@ -1,41 +1,41 @@
-const data = require('./data/data.json');
-const { v4: uuidv4 } = require('uuid');
+const data = require("./data/data.json");
+const { v4: uuidv4 } = require("uuid");
 
 const newData = data.map((prod) => {
-    return {
-        id: uuidv4(),
-        ...prod,
-    };
+  return {
+    id: uuidv4(),
+    ...prod,
+  };
 });
 
 console.log(JSON.stringify(newData));
 
 // Пример добавления комментария с рейтингом:
-fetch('https://your-server-url/api/comments/60d21b4667d0d8992e610c85', {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-        'x-auth-token': 'your_jwt_token_here', // JWT токен для авторизации
-    },
-    body: JSON.stringify({
-        text: 'This is a great product! Highly recommend.',
-        rating: 5,
-    }),
+fetch("https://your-server-url/api/comments/60d21b4667d0d8992e610c85", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    "x-auth-token": "your_jwt_token_here", // JWT токен для авторизации
+  },
+  body: JSON.stringify({
+    text: "This is a great product! Highly recommend.",
+    rating: 5,
+  }),
 })
-    .then((response) => response.json())
-    .then((data) => console.log(data))
-    .catch((error) => console.error('Error:', error));
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error("Error:", error));
 
 // Пример получения комментариев:
-fetch('https://your-server-url/api/comments/60d21b4667d0d8992e610c85', {
-    method: 'GET',
-    headers: {
-        'x-auth-token': 'your_jwt_token_here', // JWT токен для авторизации
-    },
+fetch("https://your-server-url/api/comments/60d21b4667d0d8992e610c85", {
+  method: "GET",
+  headers: {
+    "x-auth-token": "your_jwt_token_here", // JWT токен для авторизации
+  },
 })
-    .then((response) => response.json())
-    .then((data) => console.log(data))
-    .catch((error) => console.error('Error:', error));
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error("Error:", error));
 
 /**
  * пример ответа
