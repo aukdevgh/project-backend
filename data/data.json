@@ -511,7 +511,7 @@
     "price": 59.99,
     "discountPercentage": 12,
     "stock": 92,
-    "colors": ["creamy-white", "warm-grey", "white"],
+    "colors": ["creamy-white", "warm-grey"],
     "sizes": ["S", "M", "L", "XL"],
     "thumbnail": "CozyKnitSweater.creamy-white.webp",
     "images": [

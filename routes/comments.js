@@ -1,6 +1,6 @@
 const express = require("express");
 const Comment = require("../models/Comment");
-const authMiddleware = require("../middleware/auth");
+const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
 const fs = require("fs");
 const path = require("path");
@@ -73,7 +73,7 @@ router.post("/:productId", authMiddleware, async (req, res) => {
     // Сохраняем комментарий в базе данных
     await newComment.save();
 
-    res.status(201).json(newComment);
+    res.status(201).json({ message: "review created successfully" });
   } catch (err) {
     console.error(err.message);
     res.status(500).send("Server Error");
