@@ -12,7 +12,7 @@
       "dest": "server.js",
       "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
       "headers": {
-        "Access-Control-Allow-Origin": "https://project-frontend-6ndxcqd6n-ulans-projects.vercel.app",
+        "Access-Control-Allow-Origin": "https://my-project-shopco.vercel.app/",
         "Access-Control-Allow-Credentials": "true"
       }
     }
