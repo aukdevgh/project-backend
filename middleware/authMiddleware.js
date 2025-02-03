@@ -33,7 +33,7 @@ const authMiddleware = (req, res, next) => {
         res.cookie("accessToken", newAccessToken, {
           httpOnly: true,
           secure: true,
-          sameSite: "Strict",
+          sameSite: "None",
         });
 
         req.user = refreshDecoded;
