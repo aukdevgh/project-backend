@@ -22,7 +22,11 @@ connectDB();
 
 // Разрешаем запросы только с определённого домена (например, с локального хоста React-приложения)
 const corsOptions = {
-  origin: process.env.CLIENT_HOST_NAME || "http://localhost:5000", // Указываем адрес вашего React-приложения
+  origin: [
+    "http://localhost:5000",
+    "http://localhost:4173",
+    process.env.CLIENT_HOST_NAME,
+  ], // Указываем адрес вашего React-приложения
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE"], // Разрешаем определённые методы
   allowedHeaders: ["Content-Type", "Authorization"], // Разрешаем определённые заголовки
   credentials: true, // Если вам нужно поддерживать cookies
