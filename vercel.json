@@ -16,5 +16,11 @@
         "Access-Control-Allow-Credentials": "true"
       }
     }
+  ],
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": { "Cache-Control": "public, max-age=31536000, immutable" }
+    }
   ]
 }

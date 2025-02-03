@@ -54,7 +54,16 @@ app.use("/api/cart", cartRoutes);
 app.use("/api", orderRoutes);
 
 // Настроим статическую папку для изображений
-app.use("/api/images", express.static(path.join(__dirname, "data/images")));
+app.use(
+  "/api/images",
+  express.static(path.join(__dirname, "public/images"), {
+    setHeaders: (res, path) => {
+      res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+    },
+    etag: false, // Отключаем проверку ETag
+    lastModified: false, // Отключаем проверку Last-Modified
+  }),
+);
 
 // Запуск сервера
 app.listen(PORT, () => {
