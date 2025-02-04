@@ -26,7 +26,7 @@ router.get("/", (req, res) => {
     limit,
     category,
     sortBy,
-    order,
+    sortDirection,
     minPrice,
     maxPrice,
     select,
@@ -83,7 +83,7 @@ router.get("/", (req, res) => {
           sale: "discountPercentage",
         };
 
-        return order === "desc"
+        return sortDirection === "desc"
           ? b[sortKey[sortBy]] - a[sortKey[sortBy]]
           : a[sortKey[sortBy]] - b[sortKey[sortBy]];
       } else if (sortBy === "popular") {
@@ -100,7 +100,7 @@ router.get("/", (req, res) => {
           return price - discount;
         };
 
-        return order === "desc"
+        return sortDirection === "desc"
           ? getDsicountPrice(b.price, b.discountPercentage) -
               getDsicountPrice(a.price, a.discountPercentage)
           : getDsicountPrice(a.price, a.discountPercentage) -
