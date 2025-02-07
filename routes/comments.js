@@ -51,6 +51,7 @@ router.get("/", async (req, res) => {
 router.post("/:productId", authMiddleware, async (req, res) => {
   const { text, rating } = req.body;
   const { productId } = req.params;
+  const userId = req.user.id;
 
   if (!text || !rating) {
     return res.status(400).json({ msg: "Text and rating are required" });
@@ -62,6 +63,15 @@ router.post("/:productId", authMiddleware, async (req, res) => {
   }
 
   try {
+    // Проверяем, оставлял ли пользователь уже отзыв к этому товару
+    const existingReview = await Comment.findOne({ productId, userId });
+
+    if (existingReview) {
+      return res
+        .status(409)
+        .json({ msg: "You can only leave one review per product" });
+    }
+
     // Создаем новый комментарий с рейтингом
     const newComment = new Comment({
       productId,
@@ -82,10 +92,10 @@ router.post("/:productId", authMiddleware, async (req, res) => {
 
 // Получить все комментарии к товару
 router.get("/:productId", async (req, res) => {
-  const { productId } = req.query;
+  const { productId } = req.params;
 
   try {
-    const comments = await Comment.find({ productId })
+    let comments = await Comment.find({ productId })
       .populate("userId", "name email") // Можно добавить информацию о пользователе
       .sort({ createdAt: -1 }); // Сортировка по времени создания (от новых к старым)
 
@@ -96,6 +106,15 @@ router.get("/:productId", async (req, res) => {
         hasMore: false,
       });
     }
+
+    comments = comments.map((comment) => ({
+      id: comment.id,
+      username: comment.userId.name,
+      rating: comment.rating,
+      text: comment.text,
+      createAt: comment.createdAt,
+    }));
+
     // Общее количество до разбивки на страницы
     const total = comments.length;
 

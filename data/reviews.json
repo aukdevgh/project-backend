@@ -1,247 +1,247 @@
 [
   {
     "rating": 5,
-    "comment": "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.",
-    "date": "2024-12-28",
-    "reviewerName": "Ella Wright",
+    "text": "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.",
+    "createAt": "2024-12-28",
+    "username": "Ella Wright",
     "reviewerEmail": "ella.wright@example.com"
   },
   {
     "rating": 5,
-    "comment": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
-    "date": "2025-01-05",
-    "reviewerName": "Elijah Lee",
+    "text": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
+    "createAt": "2025-01-05",
+    "username": "Elijah Lee",
     "reviewerEmail": "elijah.lee@example.com"
   },
   {
     "rating": 5,
-    "comment": "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",
-    "date": "2024-12-10",
-    "reviewerName": "Noah Johnson",
+    "text": "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",
+    "createAt": "2024-12-10",
+    "username": "Noah Johnson",
     "reviewerEmail": "noah.johnson@example.com"
   },
   {
     "rating": 5,
-    "comment": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
-    "date": "2024-12-01",
-    "reviewerName": "Olivia Martinez",
+    "text": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
+    "createAt": "2024-12-01",
+    "username": "Olivia Martinez",
     "reviewerEmail": "olivia.martinez@example.com"
   },
   {
     "rating": 5,
-    "comment": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
-    "date": "2024-12-22",
-    "reviewerName": "Abigail Mitchell",
+    "text": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
+    "createAt": "2024-12-22",
+    "username": "Abigail Mitchell",
     "reviewerEmail": "abigail.mitchell@example.com"
   },
   {
     "rating": 5,
-    "comment": "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.",
-    "date": "2024-12-07",
-    "reviewerName": "Amelia White",
+    "text": "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.",
+    "createAt": "2024-12-07",
+    "username": "Amelia White",
     "reviewerEmail": "amelia.white@example.com"
   },
   {
     "rating": 5,
-    "comment": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
-    "date": "2025-01-04",
-    "reviewerName": "Noah Johnson",
+    "text": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
+    "createAt": "2025-01-04",
+    "username": "Noah Johnson",
     "reviewerEmail": "noah.johnson@example.com"
   },
   {
     "rating": 5,
-    "comment": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
-    "date": "2025-01-04",
-    "reviewerName": "Matthew Roberts",
+    "text": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
+    "createAt": "2025-01-04",
+    "username": "Matthew Roberts",
     "reviewerEmail": "matthew.roberts@example.com"
   },
   {
     "rating": 5,
-    "comment": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
-    "date": "2024-12-05",
-    "reviewerName": "James Wilson",
+    "text": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
+    "createAt": "2024-12-05",
+    "username": "James Wilson",
     "reviewerEmail": "james.wilson@example.com"
   },
   {
     "rating": 5,
-    "comment": "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",
-    "date": "2024-12-08",
-    "reviewerName": "Mason Harris",
+    "text": "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",
+    "createAt": "2024-12-08",
+    "username": "Mason Harris",
     "reviewerEmail": "mason.harris@example.com"
   },
   {
     "rating": 5,
-    "comment": "Every piece I've ordered from Shop.co feels like it was designed just for me. Their collections are truly amazing.",
-    "date": "2024-12-13",
-    "reviewerName": "Charlotte Moore",
+    "text": "Every piece I've ordered from Shop.co feels like it was designed just for me. Their collections are truly amazing.",
+    "createAt": "2024-12-13",
+    "username": "Charlotte Moore",
     "reviewerEmail": "charlotte.moore@example.com"
   },
   {
     "rating": 5,
-    "comment": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
-    "date": "2024-12-31",
-    "reviewerName": "Abigail Mitchell",
+    "text": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
+    "createAt": "2024-12-31",
+    "username": "Abigail Mitchell",
     "reviewerEmail": "abigail.mitchell@example.com"
   },
   {
     "rating": 5,
-    "comment": "Shop.co has completely transformed my shopping experience. The clothes are high-quality, stylish, and reasonably priced.",
-    "date": "2024-12-20",
-    "reviewerName": "Victoria Hill",
+    "text": "Shop.co has completely transformed my shopping experience. The clothes are high-quality, stylish, and reasonably priced.",
+    "createAt": "2024-12-20",
+    "username": "Victoria Hill",
     "reviewerEmail": "victoria.hill@example.com"
   },
   {
     "rating": 5,
-    "comment": "Shop.co has completely transformed my shopping experience. The clothes are high-quality, stylish, and reasonably priced.",
-    "date": "2025-01-05",
-    "reviewerName": "Chloe Perez",
+    "text": "Shop.co has completely transformed my shopping experience. The clothes are high-quality, stylish, and reasonably priced.",
+    "createAt": "2025-01-05",
+    "username": "Chloe Perez",
     "reviewerEmail": "chloe.perez@example.com"
   },
   {
     "rating": 5,
-    "comment": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
-    "date": "2024-12-03",
-    "reviewerName": "Jacob Edwards",
+    "text": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
+    "createAt": "2024-12-03",
+    "username": "Jacob Edwards",
     "reviewerEmail": "jacob.edwards@example.com"
   },
   {
     "rating": 5,
-    "comment": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
-    "date": "2024-12-03",
-    "reviewerName": "Mia Young",
+    "text": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
+    "createAt": "2024-12-03",
+    "username": "Mia Young",
     "reviewerEmail": "mia.young@example.com"
   },
   {
     "rating": 5,
-    "comment": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
-    "date": "2024-12-11",
-    "reviewerName": "Mia Young",
+    "text": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
+    "createAt": "2024-12-11",
+    "username": "Mia Young",
     "reviewerEmail": "mia.young@example.com"
   },
   {
     "rating": 5,
-    "comment": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
-    "date": "2024-12-29",
-    "reviewerName": "Chloe Perez",
+    "text": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
+    "createAt": "2024-12-29",
+    "username": "Chloe Perez",
     "reviewerEmail": "chloe.perez@example.com"
   },
   {
     "rating": 5,
-    "comment": "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
-    "date": "2024-12-24",
-    "reviewerName": "Scarlett Turner",
+    "text": "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    "createAt": "2024-12-24",
+    "username": "Scarlett Turner",
     "reviewerEmail": "scarlett.turner@example.com"
   },
   {
     "rating": 5,
-    "comment": "I never thought I'd find a store where every piece feels like it was made for me. Shop.co is a dream come true!",
-    "date": "2024-12-07",
-    "reviewerName": "Emily Adams",
+    "text": "I never thought I'd find a store where every piece feels like it was made for me. Shop.co is a dream come true!",
+    "createAt": "2024-12-07",
+    "username": "Emily Adams",
     "reviewerEmail": "emily.adams@example.com"
   },
   {
     "rating": 5,
-    "comment": "I never thought I'd find a store where every piece feels like it was made for me. Shop.co is a dream come true!",
-    "date": "2024-12-30",
-    "reviewerName": "Henry King",
+    "text": "I never thought I'd find a store where every piece feels like it was made for me. Shop.co is a dream come true!",
+    "createAt": "2024-12-30",
+    "username": "Henry King",
     "reviewerEmail": "henry.king@example.com"
   },
   {
     "rating": 5,
-    "comment": "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
-    "date": "2024-12-11",
-    "reviewerName": "Zoe Evans",
+    "text": "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    "createAt": "2024-12-11",
+    "username": "Zoe Evans",
     "reviewerEmail": "zoe.evans@example.com"
   },
   {
     "rating": 5,
-    "comment": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
-    "date": "2024-12-22",
-    "reviewerName": "Abigail Mitchell",
+    "text": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
+    "createAt": "2024-12-22",
+    "username": "Abigail Mitchell",
     "reviewerEmail": "abigail.mitchell@example.com"
   },
   {
     "rating": 5,
-    "comment": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
-    "date": "2024-12-10",
-    "reviewerName": "James Wilson",
+    "text": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
+    "createAt": "2024-12-10",
+    "username": "James Wilson",
     "reviewerEmail": "james.wilson@example.com"
   },
   {
     "rating": 5,
-    "comment": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
-    "date": "2025-01-04",
-    "reviewerName": "Sophia Anderson",
+    "text": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
+    "createAt": "2025-01-04",
+    "username": "Sophia Anderson",
     "reviewerEmail": "sophia.anderson@example.com"
   },
   {
     "rating": 5,
-    "comment": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
-    "date": "2024-12-30",
-    "reviewerName": "Lucas Allen",
+    "text": "The quality of the fabrics and the modern designs at Shop.co are second to none. I'm a loyal customer for life.",
+    "createAt": "2024-12-30",
+    "username": "Lucas Allen",
     "reviewerEmail": "lucas.allen@example.com"
   },
   {
     "rating": 5,
-    "comment": "Shop.co has completely transformed my shopping experience. The clothes are high-quality, stylish, and reasonably priced.",
-    "date": "2024-12-04",
-    "reviewerName": "Chloe Perez",
+    "text": "Shop.co has completely transformed my shopping experience. The clothes are high-quality, stylish, and reasonably priced.",
+    "createAt": "2024-12-04",
+    "username": "Chloe Perez",
     "reviewerEmail": "chloe.perez@example.com"
   },
   {
     "rating": 5,
-    "comment": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
-    "date": "2024-12-26",
-    "reviewerName": "Michael Baker",
+    "text": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
+    "createAt": "2024-12-26",
+    "username": "Michael Baker",
     "reviewerEmail": "michael.baker@example.com"
   },
   {
     "rating": 5,
-    "comment": "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
-    "date": "2025-01-04",
-    "reviewerName": "Ava Davis",
+    "text": "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    "createAt": "2025-01-04",
+    "username": "Ava Davis",
     "reviewerEmail": "ava.davis@example.com"
   },
   {
     "rating": 5,
-    "comment": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
-    "date": "2024-12-05",
-    "reviewerName": "Charlotte Moore",
+    "text": "From trendy to timeless, Shop.co has everything I need to elevate my wardrobe. Highly recommended!",
+    "createAt": "2024-12-05",
+    "username": "Charlotte Moore",
     "reviewerEmail": "charlotte.moore@example.com"
   },
   {
     "rating": 5,
-    "comment": "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
-    "date": "2025-01-09",
-    "reviewerName": "Madison Collins",
+    "text": "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.",
+    "createAt": "2025-01-09",
+    "username": "Madison Collins",
     "reviewerEmail": "madison.collins@example.com"
   },
   {
     "rating": 5,
-    "comment": "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",
-    "date": "2024-12-24",
-    "reviewerName": "Abigail Mitchell",
+    "text": "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",
+    "createAt": "2024-12-24",
+    "username": "Abigail Mitchell",
     "reviewerEmail": "abigail.mitchell@example.com"
   },
   {
     "rating": 5,
-    "comment": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
-    "date": "2024-12-20",
-    "reviewerName": "Victoria Hill",
+    "text": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
+    "createAt": "2024-12-20",
+    "username": "Victoria Hill",
     "reviewerEmail": "victoria.hill@example.com"
   },
   {
     "rating": 5,
-    "comment": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
-    "date": "2024-12-06",
-    "reviewerName": "Amelia White",
+    "text": "The attention to detail in Shop.co's clothes is unmatched. I'm so happy with everything I've purchased.",
+    "createAt": "2024-12-06",
+    "username": "Amelia White",
     "reviewerEmail": "amelia.white@example.com"
   },
   {
     "rating": 5,
-    "comment": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
-    "date": "2024-12-06",
-    "reviewerName": "Elijah Lee",
+    "text": "Shop.co's customer service and product quality have set a new standard for online shopping. I'm beyond satisfied!",
+    "createAt": "2024-12-06",
+    "username": "Elijah Lee",
     "reviewerEmail": "elijah.lee@example.com"
   }
 ]
